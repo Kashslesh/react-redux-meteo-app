@@ -1,0 +1,21 @@
+.listItems {
+  display: flex;
+  justify-content: space-evenly;
+}
+.listItems ul {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+.listItems li {
+  font-size: 1.15rem;
+  line-height: 1.5rem;
+  text-align: start;
+}
+.leftSide li {
+  color: #808080;
+  font-weight: 400;
+}
+.rightSide {
+  color: #414b5a;
+  font-weight: 600;
+}

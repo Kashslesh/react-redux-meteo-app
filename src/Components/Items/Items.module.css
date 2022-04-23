@@ -1,0 +1,47 @@
+.list li {
+  list-style: none;
+  text-align: start;
+  width: 100%;
+  max-width: 40vw;
+  height: 7vh;
+  margin: 0.5rem 0 0.5rem 0;
+  background: #fdfdfd;
+  border: 1px solid #e0e0e0;
+  -webkit-box-shadow: -6px 6px 0px 0px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: -6px 6px 0px 0px rgba(0, 0, 0, 0.57);
+  box-shadow: -6px 6px 0px 0px rgba(0, 0, 0, 0.57);
+  border-radius: 16px;
+  padding-left: 1rem;
+  padding-top: 0.3rem;
+  animation: blink 0.5s ease-in-out;
+}
+
+.list li:hover {
+  animation: focus 0.5s;
+}
+@keyframes blink {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes focus {
+  0% {
+    opacity: 0.8;
+    transform: translateX(1%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(5%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(10%);
+  }
+}

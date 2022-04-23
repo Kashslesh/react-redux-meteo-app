@@ -1,0 +1,27 @@
+.card {
+  height: auto;
+  min-height: 20vh;
+  background: #fdfdfd;
+  border: 1px solid #e0e0e0;
+  -webkit-box-shadow: -6px 6px 0px 0px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: -6px 6px 0px 0px rgba(0, 0, 0, 0.57);
+  box-shadow: -6px 6px 0px 0px rgba(0, 0, 0, 0.57);
+  border-radius: 16px;
+  width: 95%;
+  max-width: 25rem;
+  margin: 3rem 0.5rem;
+  animation: cardAnimation 1s;
+}
+@keyframes cardAnimation {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 968px) {
+  .card {
+    margin: 3rem auto;
+  }
+}

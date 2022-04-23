@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  margin: 0;
+  background: url('./assets/backgroundImage.jpg') no-repeat 1rem 0.5rem;
+  background-position: right top;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+li{
+  list-style: none;
+}
+@media screen and (max-width: 968px) {
+  body {
+    background-position: center top;
+  }
+}

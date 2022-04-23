@@ -1,0 +1,27 @@
+.cardPosition {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 1rem;
+  text-align: center;
+}
+#temperInfo {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #808080;
+}
+.cardPosition article {
+  margin: 0 auto;
+}
+.cardPosition h2 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 2rem;
+  color: #414b5a;
+}
+.cardPosition p {
+  font-style: normal;
+  font-weight: 300;
+  color: #414B5A;
+  font-size: 0.7rem;
+}
