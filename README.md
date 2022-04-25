@@ -25,6 +25,21 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
+# Meteo app
+
+<h2>Objectifs du projet</h2>
+
+<ul>
+  <li>Maquetter les interfaces de saisies et de consultations.</li>
+  <li>Création d’une application web en utilisant de RactJS/ ReduxJs.</li>
+  <li>Création le fetch request</li>
+  <li>Utilisation d’une API.</li>
+  <li>Publication de front-end.</li>
+  <li>Réalisation de tests fonctionnels.</li>
+  <li>Réalisation de tests fonctionnels.</li>
+</ul> 
+
 ### `Layout`
 
-<img src='./src/assets/LayoutImages/LayoutSmatrphone.png'>here</img>
+<img src='./src/assets/LayoutImages/LayoutSmatrphone.png'>
+<img src='./src/assets/LayoutImages/LayoutDes.png'>
