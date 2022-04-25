@@ -41,5 +41,7 @@ Your app is ready to be deployed!
 
 ### `Layout`
 
-<img src='./src/assets/LayoutImages/LayoutSmatrphone.png'>
+<img src='./src/assets/LayoutImages/LayoutSmatrphone.png'> 
+
+
 <img src='./src/assets/LayoutImages/LayoutDes.png'>
