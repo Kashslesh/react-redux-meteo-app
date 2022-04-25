@@ -27,4 +27,4 @@ Your app is ready to be deployed!
 
 ### `Layout`
 
-<a href='./src/assets/LayoutImages/LayoutSmatrphone.png'>here</a>
+<img src='./src/assets/LayoutImages/LayoutSmatrphone.png'>here</img>
